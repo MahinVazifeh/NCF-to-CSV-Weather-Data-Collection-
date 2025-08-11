@@ -5,11 +5,11 @@ paths:
 
 # Data
 data:
-  dataset_name: "TimSchopf/medical_abstracts"
-  latitude_column: "train"
-  longitude_column: "test"
-  time: "medical_abstract"
-  variable: "condition_label"
+  dataset_name: "tg_ens_mean_0.25deg_reg_1950-1964_v31.0e"
+  latitude_column: "latitude"
+  longitude_column: "langitude"
+  timestamp: "time"
+  weather_name: "variable"
 
   
 
