@@ -1,4 +1,4 @@
-# NCF-to-CSV-Weather-Data-Collection
+# NC-to-CSV-Weather-Data-Collection (.nc to .csv)
 
 Most environmental datasets are stored in NetCDF (.nc) format. To make them suitable for analysis, we need to convert them into a more accessible format, such as CSV.
 This repository provides the tools and scripts for performing that conversion.
