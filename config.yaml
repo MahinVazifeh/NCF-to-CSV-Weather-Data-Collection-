@@ -1,0 +1,16 @@
+# Paths
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+
+# Data
+data:
+  dataset_name: "TimSchopf/medical_abstracts"
+  latitude_column: "train"
+  longitude_column: "test"
+  time: "medical_abstract"
+  variable: "condition_label"
+
+  
+
+
