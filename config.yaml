@@ -10,7 +10,9 @@ data:
   longitude_column: "langitude"
   timestamp: "time"
   weather_name: "variable"
+  URL: "https://knmi-ecad-assets-prd.s3.amazonaws.com/ensembles/data/Grid_0.25deg_reg_ensemble/tg_ens_mean_0.25deg_reg_1950-1964_v31.0e.nc"
 
   
+
 
 
