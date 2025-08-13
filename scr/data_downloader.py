@@ -28,7 +28,8 @@ class WeatherDataDownloder:
 
         logger.info("Download Weather Data from E-Obs datasets provided by Copernicus")
 
-        file_path = self.config["data"]["dataset_name"]
+        file_path = self.config["Paths"]["raw_data"]
+        file_path = file_path + config["data"]["dataset_name"]
         dataset = Dataset(file_path, mode='r')
         print(dataset.variables.keys())
 
@@ -71,6 +72,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
